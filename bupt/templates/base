@@ -1,0 +1,15 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="zh">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <h1>{% block head1 %}{% endblock %}</h1>
+    <p>现在是{{ current_date }}。</p>
+    <hr>
+    {% include 'includes/menu' %}
+    {% block content %}{% endblock %}
+    {% block footer %}{% endblock %}
+    {% include 'includes/gohome' %}
+</body>
+</html>

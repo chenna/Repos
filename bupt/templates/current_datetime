@@ -1,14 +1,14 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html lang="zh">
-<head>
-    <meta charset="GBK">
-    <title>时间</title>
-</head>
-<body>
-    <h1>我的时间戳网站</h1>
-    <p>现在是 {{ current_date }}。</p>
+{% extends "base" %}
 
-    <hr>
-    <p>感谢来访</p>
-</body>
-</html>
+{% block title %}时间{% endblock %}
+
+{% block head1 %}时间戳{% endblock %}
+
+{% block content %}
+{% include 'includes/menu' %}
+<p>现在时间{{ current_date }}.</p>
+{% endblock %}
+
+{% block footer %}
+{% include 'includes/gohome' %}
+    {% endblock %}

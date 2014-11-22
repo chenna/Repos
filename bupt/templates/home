@@ -1,16 +1,6 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html lang="zh">
-<head>
-    <meta charset="GBK">
-    <title>-MCII-中文</title>
-</head>
-<body>
-    <h1>首页</h1>
-    <p>It is now {{ current_date }}.</p>
-    <hr>
-    <p><a href="time">时间</a></p>
-    <p><a href="admin">管理员</a></p>
-    <hr>
-    <p>Thanks for visiting!</p>
-</body>
-</html>
+﻿{% extends "base" %}
+{% block title %}-MCII-多媒体通信与交互技术室{% endblock %}
+{% block head1 %}首页{% endblock %}
+{% block content %}
+<p>多媒体通信与交互技术室（简称MCII）成立于2007年，隶属于北京邮电大学信息与通信工程学院数字媒体中心，现有教授1名，副教授2名，讲师3名，在读博士生4名，硕士研究生50+名。</p>
+{% endblock %}
