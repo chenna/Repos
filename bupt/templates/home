@@ -1,0 +1,16 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="zh">
+<head>
+    <meta charset="GBK">
+    <title>-MCII-中文</title>
+</head>
+<body>
+    <h1>首页</h1>
+    <p>It is now {{ current_date }}.</p>
+    <hr>
+    <p><a href="time">时间</a></p>
+    <p><a href="admin">管理员</a></p>
+    <hr>
+    <p>Thanks for visiting!</p>
+</body>
+</html>
